@@ -55,7 +55,7 @@ const projects = () => {
               activeProject ? "flex" : "hidden"
             }`}
           >
-            {activeProject ? (
+            {activeProject && (
               <div className=" w-[25rem] min-h-[20rem] pb-5 bg-white rounded-xl text-[#232432] p-2 px-6 pt-4 gap-3 flex flex-col  max800:w-[calc(100vw-6rem)]  max800:h-[calc(100vh-3rem)] max800:ml-[1rem] max500:w-[calc(100vw-3rem)] relative">
                 <div className="h-10">
                   {activeProject.isWebsite ? (
@@ -108,16 +108,15 @@ const projects = () => {
                   onClick={CloseProject}
                 />
               </div>
-            ) : (
-              <div
-                className={`w-[25rem] min-h-[20rem] pb-5 bg-white rounded-xl text-[#232432] p-2 px-6 pt-4 gap-3 flex flex-col  max800:w-[calc(100vw-6rem)]  max800:h-[calc(100vh-3rem)] max800:ml-[1rem] max500:w-[calc(100vw-3rem)] relative justify-center items-center font-LexendPeta ${
-                  activeProject ? "flex" : "hidden"
-                }`}
-              >
-                Click the Project to See
-              </div>
             )}
           </div>
+          {!activeProject && (
+            <div
+              className={`w-[25rem] min-h-[20rem] pb-5 bg-white rounded-xl text-[#232432] p-2 px-6 pt-4 gap-3 flex justify-center items-center font-LexendPeta  max800:hidden`}
+            >
+              Click the Project to See
+            </div>
+          )}
         </div>
       </div>
     </Wrapper1>
