@@ -6,11 +6,13 @@ import CplusSvg from "../utils/Images/Skills/Languages/C++.svg";
 import CsharpSvg from "../utils/Images/Skills/Languages/Csharp.svg";
 import DartSvg from "../utils/Images/Skills/Languages/Dart.svg";
 import SoliditySvg from "../utils/Images/Skills/Languages/Solidity.svg";
+import HtmlSvg from "../utils/Images/Skills/Frontend/Html.svg";
 import TailwindCssSvg from "../utils/Images/Skills/Frontend/TailwindCss.svg";
 import ReactSvg from "../utils/Images/Skills/Frontend/React.png";
 import FlutterSvg from "../utils/Images/Skills/Frontend/Flutter.svg";
 import NextJsSvg from "../utils/Images/Skills/Frontend/NextJs.svg";
 import NodeJsSvg from "../utils/Images/Skills/Backend/NodeJs.svg";
+import MongoDbSvg from "../utils/Images/Skills/Backend/MongoDb.png";
 import SSTSvg from "../utils/Images/Skills/Backend/SST.png";
 import AWSSvg from "../utils/Images/Skills/Backend/AWS.svg";
 import FigmaSvg from "../utils/Images/Skills/Technologies/Figma.svg";
@@ -43,6 +45,7 @@ const skills = () => {
             <li>
               <p className="text-[1.3rem]">Frontend:-</p>
               <ul className="flex flex-col gap-2 pt-2 pl-6 list-disc">
+                <SkillItem svg={HtmlSvg} name={"Tailwind Css"} />
                 <SkillItem svg={TailwindCssSvg} name={"Tailwind Css"} />
                 <SkillItem svg={ReactSvg} name={"React"} />
                 <SkillItem svg={FlutterSvg} name={"Flutter"} />
@@ -54,6 +57,7 @@ const skills = () => {
               <ul className="flex flex-col gap-2 pt-2 pl-6 list-disc">
                 <SkillItem svg={NodeJsSvg} name={"Node Js"} />
                 <SkillItem svg={NodeJsSvg} name={"Express"} />
+                <SkillItem svg={MongoDbSvg} name={"MongoDb"} />
                 <SkillItem svg={SSTSvg} name={"SST"} />
                 <SkillItem svg={AWSSvg} name={"AWS"} />
                 <SkillItem svg={NextJsSvg} name={"NEXT Js"} />
