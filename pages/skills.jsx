@@ -45,7 +45,7 @@ const skills = () => {
             <li>
               <p className="text-[1.3rem]">Frontend:-</p>
               <ul className="flex flex-col gap-2 pt-2 pl-6 list-disc">
-                <SkillItem svg={HtmlSvg} name={"Tailwind Css"} />
+                <SkillItem svg={HtmlSvg} name={"HTML"} />
                 <SkillItem svg={TailwindCssSvg} name={"Tailwind Css"} />
                 <SkillItem svg={ReactSvg} name={"React"} />
                 <SkillItem svg={FlutterSvg} name={"Flutter"} />
