@@ -18,6 +18,21 @@ import VsCodeSvg from "../Images/Skills/Technologies/VsCode.svg";
 
 const Projects = [
   {
+    name: "Poll3",
+    description:
+      "It is Polling app where you can just create your poll and share the link to other and they can vote using crypto wallet. This is based on Web 3 using Goerli Eth",
+    githubLink: "https://github.com/Airbornharsh/pollingapp-web3",
+    type: "Website",
+    isWebsite: true,
+    webLink: "https://poll3.vercel.app/",
+    technologies: [
+      { name: "Solidity", img: SoliditySvg },
+      { name: "Next Js", img: NextJsSvg },
+      { name: "Tailwind CSS", img: TailwindCssSvg },
+      { name: "JavaScript", img: JavascriptSvg },
+    ],
+  },
+  {
     name: "Gymnaism",
     description:
       "This is a Internship Test project which I was told to craete using React,SST and AWs. Where you can have the videos and courses for gyming. (Backend not working as Aws charges for it)",
