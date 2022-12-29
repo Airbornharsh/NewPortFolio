@@ -15,6 +15,7 @@ import NodeJsSvg from "../utils/Images/Skills/Backend/NodeJs.svg";
 import MongoDbSvg from "../utils/Images/Skills/Backend/MongoDb.png";
 import SSTSvg from "../utils/Images/Skills/Backend/SST.png";
 import AWSSvg from "../utils/Images/Skills/Backend/AWS.svg";
+import HardHatSvg from "../utils/Images/Skills/Backend/HardHat.svg";
 import FigmaSvg from "../utils/Images/Skills/Technologies/Figma.svg";
 import GithubSvg from "../utils/Images/Skills/Technologies/Github.svg";
 import VsCodeSvg from "../utils/Images/Skills/Technologies/VsCode.svg";
@@ -61,6 +62,7 @@ const skills = () => {
                 <SkillItem svg={SSTSvg} name={"SST"} />
                 <SkillItem svg={AWSSvg} name={"AWS"} />
                 <SkillItem svg={NextJsSvg} name={"NEXT Js"} />
+                <SkillItem svg={HardHatSvg} name={"HardHat"} />
               </ul>
             </li>
             <li>

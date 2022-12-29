@@ -12,6 +12,7 @@ import NodeJsSvg from "../Images/Skills/Backend/NodeJs.svg";
 import MongoDbSvg from "../Images/Skills/Backend/MongoDb.png";
 import SSTSvg from "../Images/Skills/Backend/SST.png";
 import AWSSvg from "../Images/Skills/Backend/AWS.svg";
+import HardHatSvg from "../Images/Skills/Backend/HardHat.svg";
 import FigmaSvg from "../Images/Skills/Technologies/Figma.svg";
 import GithubSvg from "../Images/Skills/Technologies/Github.svg";
 import VsCodeSvg from "../Images/Skills/Technologies/VsCode.svg";
@@ -27,6 +28,7 @@ const Projects = [
     webLink: "https://poll3.vercel.app/",
     technologies: [
       { name: "Solidity", img: SoliditySvg },
+      { name: "HardHat", img: HardHatSvg },
       { name: "Next Js", img: NextJsSvg },
       { name: "Tailwind CSS", img: TailwindCssSvg },
       { name: "JavaScript", img: JavascriptSvg },

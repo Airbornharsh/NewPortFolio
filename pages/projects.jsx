@@ -92,7 +92,7 @@ const projects = () => {
                 </div>
                 <div>
                   <p>Technologies Used:-</p>
-                  <ul className="flex flex-wrap gap-3 px-2 mt-2 text-white">
+                  <ul className="flex flex-wrap gap-3 px-2 mt-2 text-white items-center">
                     {activeProject.technologies.map((tech) => {
                       return (
                         <ProjectTechItem img={tech.img} name={tech.name} />
@@ -102,7 +102,7 @@ const projects = () => {
                 </div>
                 <Image
                   src={Close_Svg}
-                  className="absolute right-4 top-4 "
+                  className="absolute right-4 top-4 cursor-pointer"
                   height={"28"}
                   width={"28"}
                   onClick={CloseProject}
