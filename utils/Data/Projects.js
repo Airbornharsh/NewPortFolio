@@ -19,6 +19,18 @@ import VsCodeSvg from "../Images/Skills/Technologies/VsCode.svg";
 
 const Projects = [
   {
+    name: "Mtrace App",
+    description:
+      "you can store your details about your expenses categories wise (Due to heroku free tier down it is not working fine but it will be in sometime)",
+    id: "tracer",
+    githubLink: "https://github.com/Airbornharsh/DTask-app",
+    type: "App",
+    isWebsite: true,
+    webLink:
+      "https://play.google.com/store/apps/details?id=com.airbornharsh.mtrace_app",
+    technologies: [{ name: "Flutter", img: JavascriptSvg }],
+  },
+  {
     name: "Poll3",
     description:
       "It is Polling app where you can just create your poll and share the link to other and they can vote using crypto wallet. This is based on Web 3 using Goerli Eth",
