@@ -11,7 +11,7 @@ import Link from "next/link";
 const social = () => {
   return (
     <Wrapper1>
-      <div className="flex items-Start pt-20 h-[100%] gap-16 w-[80vw] max-w-[70rem] z-10 flex-col max500:w-[90vw]">
+      <div className="flex items-Start pt-20  gap-16 w-[80vw] max-w-[70rem] z-10 flex-col max500:w-[90vw] min-h-screen">
         <p className="font-LexendPeta text-[1.8rem] font-semibold">Social</p>
         <ul className="flex flex-col gap-4 pl-3 font-thin text-white font-LexendPeta">
           <li>

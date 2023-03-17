@@ -25,7 +25,7 @@ import SkillItem from "../components/SkillItem";
 const skills = () => {
   return (
     <Wrapper1>
-      <div className="flex items-Start pt-20 h-[100%] gap-16 w-[80vw] max-w-[70rem] z-10 flex-col overflow-hidden max500:w-[90vw]">
+      <div className="flex items-Start pt-20  gap-16 w-[80vw] max-w-[70rem] z-10 flex-col overflow-hidden max500:w-[90vw] min-h-screen">
         <p className="font-LexendPeta text-[1.8rem] font-semibold">Skills</p>
         <div className="flex flex-col pl-3 font-thin font-Inter ">
           <p className="w-[90%]">

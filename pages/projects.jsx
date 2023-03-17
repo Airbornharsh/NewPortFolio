@@ -26,7 +26,7 @@ const projects = () => {
 
   return (
     <Wrapper1>
-      <div className="flex items-Start pt-20 h-[100%] gap-16 w-[80vw] max-w-[70rem] z-10 flex-col max500:w-[90vw]">
+      <div className="flex items-Start pt-20 gap-16 w-[80vw] max-w-[70rem] z-10 flex-col max500:w-[90vw] min-h-screen">
         <p className="font-LexendPeta text-[1.8rem] font-semibold">Projects</p>
         <div className="flex justify-between pl-3 font-thin font-Inter">
           <ul className="flex flex-col gap-2">

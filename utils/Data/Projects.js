@@ -8,6 +8,7 @@ import TailwindCssSvg from "../Images/Skills/Frontend/TailwindCss.svg";
 import ReactSvg from "../Images/Skills/Frontend/React.png";
 import FlutterSvg from "../Images/Skills/Frontend/Flutter.svg";
 import NextJsSvg from "../Images/Skills/Frontend/NextJs.svg";
+import RazorpayPng from "../Images/Skills/Frontend/Razorpay.png";
 import NodeJsSvg from "../Images/Skills/Backend/NodeJs.svg";
 import MongoDbSvg from "../Images/Skills/Backend/MongoDb.png";
 import SSTSvg from "../Images/Skills/Backend/SST.png";
@@ -19,16 +20,80 @@ import VsCodeSvg from "../Images/Skills/Technologies/VsCode.svg";
 
 const Projects = [
   {
-    name: "Mtrace App",
+    name: "Stums (College Hackathon Project for Tech Fest)",
     description:
-      "you can store your details about your expenses categories wise (Due to heroku free tier down it is not working fine but it will be in sometime)",
-    id: "tracer",
+      "Students and Faculty manage the Student Profile and student can pay mess bill,fee payment,add leave application and more",
+    id: "stums-app",
+    githubLink: "https://github.com/Airbornharsh/stums_app",
+    type: "App",
+    isWebsite: false,
+    webLink: "",
+    technologies: [
+      { name: "Flutter", img: FlutterSvg },
+      { name: "Razorpay", img: RazorpayPng },
+    ],
+  },
+  {
+    name: "Stums Backend (College Hackathon Project for Tech Fest)",
+    description: "Backend For Stums",
+    id: "stums-app",
+    githubLink: "https://github.com/Airbornharsh/stums-web-and-server",
+    type: "App",
+    isWebsite: false,
+    webLink: "",
+    technologies: [
+      { name: "NextJs", img: NextJsSvg },
+      { name: "MongoDb", img: MongoDbSvg },
+      { name: "Razorpay", img: RazorpayPng },
+    ],
+  },
+  {
+    name: "Shore App",
+    description: "Social Meida App",
+    id: "shore-app",
+    githubLink: "https://github.com/Airbornharsh/Shore_app",
+    type: "App",
+    isWebsite: true,
+    webLink:
+      "https://play.google.com/store/apps/details?id=com.airbornharsh.shore_app",
+    technologies: [{ name: "Flutter", img: FlutterSvg }],
+  },
+  {
+    name: "Shore Backend",
+    description: "Backend for Shore App",
+    id: "shore-backend",
+    githubLink: "https://github.com/Airbornharsh/Shore-web-server",
+    type: "App",
+    isWebsite: true,
+    webLink: "https://shore.vercel.app/",
+    technologies: [
+      { name: "Next Js", img: NextJsSvg },
+      { name: "MongoDb", img: MongoDbSvg },
+      { name: "Node Js", img: NodeJsSvg },
+    ],
+  },
+  {
+    name: "DTask App",
+    description: "You can Store your task and view it as per your Choice",
+    id: "mtrace",
     githubLink: "https://github.com/Airbornharsh/DTask-app",
     type: "App",
     isWebsite: true,
     webLink:
+      "https://play.google.com/store/apps/details?id=com.airbornharsh.dtask",
+    technologies: [{ name: "Flutter", img: FlutterSvg }],
+  },
+  {
+    name: "Mtrace App",
+    description:
+      "you can store your details about your expenses categories wise (Due to heroku free tier down it is not working fine but it will be in sometime)",
+    id: "tracer",
+    githubLink: "https://github.com/Airbornharsh/Mtrace-app-and-web-",
+    type: "App",
+    isWebsite: true,
+    webLink:
       "https://play.google.com/store/apps/details?id=com.airbornharsh.mtrace_app",
-    technologies: [{ name: "Flutter", img: JavascriptSvg }],
+    technologies: [{ name: "Flutter", img: FlutterSvg }],
   },
   {
     name: "Poll3",

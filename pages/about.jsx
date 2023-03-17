@@ -4,7 +4,7 @@ import Wrapper1 from "../components/Wrapper1";
 const About = () => {
   return (
     <Wrapper1>
-      <div className="flex items-Start pt-20 h-[100%] gap-16 w-[80vw] max-w-[70rem] z-10 flex-col max500:w-[90vw] max500:mb-24">
+      <div className="flex items-Start pt-20  gap-16 w-[80vw] max-w-[70rem] z-10 flex-col max500:w-[90vw] max500:mb-24 min-h-screen">
         <p className="font-LexendPeta text-[1.8rem] font-semibold">About Me</p>
         <div className="flex flex-col gap-10 pl-3 font-thin font-Inter">
           <p>
