@@ -76,7 +76,7 @@ export default function Home() {
             <div className="flex items-center gap-2">
               <p className="font-LexendPeta text-[1.2rem]">Resume</p>
               <Link
-                href="https://drive.google.com/file/d/187AQu-q63gaCEBgIOY7INIsBu55PF3jr/view?usp=sharing"
+                href="https://drive.google.com/file/d/1iiB89PWGbQdTsrs0kKPA7852x_vgESfM/view?usp=sharing"
                 target={"_blank"}
               >
                 <Image src={ResumeSvg} />
