@@ -347,7 +347,7 @@ export default function Home() {
           </li>
           <li>
             <a
-              href={"harshkeshri1234567@gmail.com"}
+              href={"https://harshkeshri1234567@gmail.com"}
               className="flex items-center gap-3"
               target={"_blank"}
             >
