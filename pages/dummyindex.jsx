@@ -6,7 +6,7 @@ import ResumeSvg from "../utils/Images/Home/Resume.svg";
 import Logo from "../utils/Images/Logo2.svg";
 // import OwlHello from "../utils/Images/Home/OwlHello.mp4";
 import animationData from "../utils/Json/128872-wavey-birdie.json";
-import Lottie from "react-lottie";
+// import Lottie from "react-lottie";
 
 export default function Home() {
   return (
@@ -35,7 +35,7 @@ export default function Home() {
           <div className="w-[23rem] h-[13rem] bg-[#4DFF89] rounded-lg shadow-xl flex items-center font-JosefinSans font-bold text-[1.2rem] justify-around text-[#232432] max800:hidden">
             <p>Hello There</p>
             <div className="h-[9rem] w-[9rem]">
-              <Lottie
+              {/* <Lottie
                 options={{
                   loop: true,
                   autoplay: true,
@@ -44,7 +44,7 @@ export default function Home() {
                     preserveAspectRatio: "xMidYMid slice",
                   },
                 }}
-              />
+              /> */}
             </div>
           </div>
         </div>

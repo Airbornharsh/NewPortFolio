@@ -6,7 +6,7 @@ import ResumeSvg from "../utils/Images/Home/Resume.svg";
 import Logo from "../utils/Images/Logo2.svg";
 // import OwlHello from "../utils/Images/Home/OwlHello.mp4";
 import animationData from "../utils/Json/128872-wavey-birdie.json";
-import Lottie from "react-lottie";
+// import Lottie from "react-lottie";
 import Image from "next/image";
 import LinkSvg from "../utils/Images/Projects/Link.svg";
 import ExternalLinkSvg from "../utils/Images/Projects/ExternalLink.svg";
@@ -86,7 +86,7 @@ export default function Home() {
           <div className="w-[23rem] h-[13rem] bg-[#4DFF89] rounded-lg shadow-xl flex items-center font-JosefinSans font-bold text-[1.2rem] justify-around text-[#232432] max800:hidden">
             <p>Hello There</p>
             <div className="h-[9rem] w-[9rem]">
-              <Lottie
+              {/* <Lottie
                 options={{
                   loop: true,
                   autoplay: true,
@@ -95,7 +95,7 @@ export default function Home() {
                     preserveAspectRatio: "xMidYMid slice",
                   },
                 }}
-              />
+              /> */}
             </div>
           </div>
         </div>
@@ -275,9 +275,16 @@ export default function Home() {
                   <p>Technologies Used:-</p>
                   <ul className="flex flex-wrap gap-3 px-2 mt-2 text-white items-center">
                     {activeProject.technologies.map((tech) => {
-                      return (
-                        <ProjectTechItem img={tech.img} name={tech.name} />
-                      );
+                      if (!tech.img)
+                        return (
+                          <span className="text-accent border-accent border-[0.1rem] px-2 rounded">
+                            {tech.name}
+                          </span>
+                        );
+                      else
+                        return (
+                          <ProjectTechItem img={tech.img} name={tech.name} />
+                        );
                     })}
                   </ul>
                 </div>

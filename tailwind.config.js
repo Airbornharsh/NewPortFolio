@@ -6,6 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        accent: "#4dfc87",
+      },
       fontFamily: {
         Inter: ["Inter", "sans-serif"],
         JejuHallasan: ["JejuHallasan", "cursive"],
