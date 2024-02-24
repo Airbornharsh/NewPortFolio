@@ -55,7 +55,7 @@ export default function Home() {
   };
 
   return (
-    <div className="min-h-screen  bg-gradient-to-br from-[#DE16FF] to-[#5F35B9] flex justify-center text-white flex-col items-center">
+    <div className="min-h-screen  bg-gradient-to-br from-[#000] to-[#290e64] flex justify-center text-white flex-col items-center">
       {/* <NavBar /> */}
 
       {/* index */}
@@ -83,7 +83,7 @@ export default function Home() {
               </Link>
             </div>
           </div>
-          <div className="w-[23rem] h-[13rem] bg-[#4DFF89] rounded-lg shadow-xl flex items-center font-JosefinSans font-bold text-[1.2rem] justify-around text-[#232432] max800:hidden">
+          <div className="w-[23rem] h-[13rem] bg-[#006aff] rounded-lg shadow-xl flex items-center font-JosefinSans font-bold text-[1.2rem] justify-around text-white max800:hidden">
             <p>Hello There</p>
             <div className="h-[9rem] w-[9rem]">
               {/* <Lottie
@@ -366,7 +366,7 @@ export default function Home() {
       </div>
 
       {/* design */}
-      <div className="w-[60vw] h-60 absolute -top-8 rounded-2xl -left-28 blur-[200px] bg-[#5f35b9a8]"></div>
+      <div className="w-[40vw] h-40 absolute -top-12 rounded-2xl -left-32 blur-[300px] bg-[#5f35b9a8]"></div>
     </div>
   );
 }

@@ -20,6 +20,21 @@ import VsCodeSvg from "../Images/Skills/Technologies/VsCode.svg";
 
 const Projects = [
   {
+    name: "H Serverless",
+    description: "Anyone can run the serverless code",
+    id: "h-serverless",
+    githubLink: "https://github.com/Airbornharsh/h-serverless",
+    type: "Website",
+    isWebsite: false,
+    technologies: [
+      { name: "Typescript" },
+      { name: "Express" },
+      { name: "NodeJs", img: NodeJsSvg },
+      { name: "Docker" },
+      { name: "Docker Compose" },
+    ],
+  },
+  {
     name: "AWS Services",
     description: "Made a aws services from scratch like S3, DynamoDB, Lambda",
     id: "aws-services",

@@ -32,7 +32,7 @@ export default function Home() {
               </Link>
             </div>
           </div>
-          <div className="w-[23rem] h-[13rem] bg-[#4DFF89] rounded-lg shadow-xl flex items-center font-JosefinSans font-bold text-[1.2rem] justify-around text-[#232432] max800:hidden">
+          <div className="w-[23rem] h-[13rem] bg-[# rounded-lg shadow-xl flex items-center font-JosefinSans font-bold text-[1.2rem] justify-around text-[#232432] max800:hidden">
             <p>Hello There</p>
             <div className="h-[9rem] w-[9rem]">
               {/* <Lottie
