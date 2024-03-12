@@ -1,6 +1,4 @@
 import JavascriptSvg from "../Images/Skills/Languages/Javascript.svg";
-import CplusSvg from "../Images/Skills/Languages/C++.svg";
-import CsharpSvg from "../Images/Skills/Languages/Csharp.svg";
 import DartSvg from "../Images/Skills/Languages/Dart.svg";
 import SoliditySvg from "../Images/Skills/Languages/Solidity.svg";
 import HtmlSvg from "../Images/Skills/Frontend/Html.svg";
@@ -14,11 +12,25 @@ import MongoDbSvg from "../Images/Skills/Backend/MongoDb.png";
 import SSTSvg from "../Images/Skills/Backend/SST.png";
 import AWSSvg from "../Images/Skills/Backend/AWS.svg";
 import HardHatSvg from "../Images/Skills/Backend/HardHat.svg";
-import FigmaSvg from "../Images/Skills/Technologies/Figma.svg";
-import GithubSvg from "../Images/Skills/Technologies/Github.svg";
-import VsCodeSvg from "../Images/Skills/Technologies/VsCode.svg";
 
 const Projects = [
+  {
+    name: "Github CodeSpace",
+    description:
+      "Anyone can run the code from github using this website and can edit it also",
+    id: "github-codespace",
+    githubLink: "https://github.com/Airbornharsh/github-codespace",
+    type: "Website",
+    isWebsite: false,
+    technologies: [
+      { name: "Go Lang" },
+      { name: "Gin" },
+      { name: "Docker" },
+      { name: "WebSockets" },
+      { name: "Typescript" },
+      { name: "Express" },
+    ],
+  },
   {
     name: "H Serverless",
     description: "Anyone can run the serverless code",
