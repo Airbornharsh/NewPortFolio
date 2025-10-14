@@ -187,9 +187,7 @@ export default function Home() {
                 <span className="text-gray-400">•</span>
                 <span className="text-gray-300">Remote</span>
               </div>
-              <p className="text-gray-400 font-medium">
-                July 2024 - Present
-              </p>
+              <p className="text-gray-400 font-medium">July 2024 - Present</p>
             </div>
 
             <div className="mb-6">
@@ -235,34 +233,6 @@ export default function Home() {
                   <span className="text-gray-300 leading-relaxed">
                     Built a TradingView dashboard with secure wallet integration
                     and on-chain trading support.
-                  </span>
-                </li>
-              </ul>
-            </div>
-
-            <div className="mb-6">
-              <h5 className="font-JosefinSans text-[1.1rem] font-semibold mb-3 text-white">
-                Key Achievements:
-              </h5>
-              <ul className="flex flex-col gap-2 pl-4">
-                <li className="flex items-start gap-2">
-                  <span className="text-green-400 mt-2">✓</span>
-                  <span className="text-gray-300 leading-relaxed">
-                    Reduced system response time by 40% through optimized
-                    database queries
-                  </span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-green-400 mt-2">✓</span>
-                  <span className="text-gray-300 leading-relaxed">
-                    Implemented multi-agent AI system handling 10K+ daily
-                    trading decisions
-                  </span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-green-400 mt-2">✓</span>
-                  <span className="text-gray-300 leading-relaxed">
-                    Achieved 99.9% uptime for critical trading infrastructure
                   </span>
                 </li>
               </ul>
@@ -360,33 +330,6 @@ export default function Home() {
               </ul>
             </div>
 
-            <div className="mb-6">
-              <h5 className="font-JosefinSans text-[1.1rem] font-semibold mb-3 text-white">
-                Key Achievements:
-              </h5>
-              <ul className="flex flex-col gap-2 pl-4">
-                <li className="flex items-start gap-2">
-                  <span className="text-green-400 mt-2">✓</span>
-                  <span className="text-gray-300 leading-relaxed">
-                    Delivered 5+ client projects within tight deadlines
-                  </span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-green-400 mt-2">✓</span>
-                  <span className="text-gray-300 leading-relaxed">
-                    Improved client website performance by 60% through
-                    optimization
-                  </span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-green-400 mt-2">✓</span>
-                  <span className="text-gray-300 leading-relaxed">
-                    Reduced development time by 30% using reusable components
-                  </span>
-                </li>
-              </ul>
-            </div>
-
             <div>
               <h5 className="font-JosefinSans text-[1.1rem] font-semibold mb-3 text-white">
                 Technologies Used:
@@ -474,34 +417,6 @@ export default function Home() {
               </ul>
             </div>
 
-            <div className="mb-6">
-              <h5 className="font-JosefinSans text-[1.1rem] font-semibold mb-3 text-white">
-                Key Achievements:
-              </h5>
-              <ul className="flex flex-col gap-2 pl-4">
-                <li className="flex items-start gap-2">
-                  <span className="text-green-400 mt-2">✓</span>
-                  <span className="text-gray-300 leading-relaxed">
-                    Reduced infrastructure costs by 35% through serverless
-                    optimization
-                  </span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-green-400 mt-2">✓</span>
-                  <span className="text-gray-300 leading-relaxed">
-                    Improved application load time by 50% through caching
-                    strategies
-                  </span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-green-400 mt-2">✓</span>
-                  <span className="text-gray-300 leading-relaxed">
-                    Implemented CI/CD pipeline reducing deployment time by 70%
-                  </span>
-                </li>
-              </ul>
-            </div>
-
             <div>
               <h5 className="font-JosefinSans text-[1.1rem] font-semibold mb-3 text-white">
                 Technologies Used:
@@ -584,32 +499,6 @@ export default function Home() {
                   <span className="text-gray-300 leading-relaxed">
                     Optimized API response times and database queries, improving
                     backend performance and reducing user wait times.
-                  </span>
-                </li>
-              </ul>
-            </div>
-
-            <div className="mb-6">
-              <h5 className="font-JosefinSans text-[1.1rem] font-semibold mb-3 text-white">
-                Key Achievements:
-              </h5>
-              <ul className="flex flex-col gap-2 pl-4">
-                <li className="flex items-start gap-2">
-                  <span className="text-green-400 mt-2">✓</span>
-                  <span className="text-gray-300 leading-relaxed">
-                    Improved API response time by 45% through query optimization
-                  </span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-green-400 mt-2">✓</span>
-                  <span className="text-gray-300 leading-relaxed">
-                    Created 15+ reusable components reducing development time
-                  </span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-green-400 mt-2">✓</span>
-                  <span className="text-gray-300 leading-relaxed">
-                    Successfully deployed 3 production applications
                   </span>
                 </li>
               </ul>
