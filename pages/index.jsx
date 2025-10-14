@@ -59,7 +59,7 @@ export default function Home() {
       {/* <NavBar /> */}
 
       {/* index */}
-      <div className="relative flex justify-center">
+      <div id="home" className="relative flex justify-center">
         <Image
           src={Logo}
           className="absolute top-12 left-12 z-10"
@@ -102,27 +102,36 @@ export default function Home() {
       </div>
 
       {/* about */}
-      <div className="flex items-Start pt-20 h-[100%] gap-16 w-[80vw] max-w-[70rem] z-10 flex-col max500:w-[90vw] max500:mb-24 min-h-screen">
+      <div
+        id="about"
+        className="flex items-Start pt-20 h-[100%] gap-16 w-[80vw] max-w-[70rem] z-10 flex-col max500:w-[90vw] max500:mb-24 min-h-screen"
+      >
         <p className="font-LexendPeta text-[1.8rem] font-semibold">About Me</p>
         <div className="flex flex-col gap-10 pl-3 font-thin font-Inter">
           <p>
             Hello World, My Name is Harsh Keshri and I am a Full Stack Developer
-            working with some technologies like React,Next Js,Tailwind Css,Node
-            Js and more. I am that type of guy who is always excited to learn
-            new things and implement that in his work.
+            with expertise in modern technologies like React, Next.js,
+            TypeScript, Node.js, AWS, and AI/ML integration. I specialize in
+            building scalable applications and have extensive experience in
+            Web3, blockchain development, and AI agent systems.
           </p>
           <p>
-            I am in Coding from my 7th Standard(Used Java) but I actually dived
-            into it in December 2021.
+            Currently working as a Full Stack Developer at Zereus AI, where I've
+            built AI trading frameworks using LangGraph and LangChain, developed
+            scalable backend systems, and created Web3 integrations with Solana
+            SDK.
           </p>
           <p>
-            Web Development was the first field I chose to begin with and
-            learned Flutter to enter the app development field.
+            I have been coding since my 7th Standard (Java) but seriously dived
+            into development in December 2021. My journey spans from web
+            development to mobile apps, blockchain, and now AI/ML integration.
           </p>
           <p>
-            I have just scratched the Game Development(Using C#) field which was
-            just for a Hackathon and have some basic knowledge of Blockchain
-            (Solidity, Smart Contracts, Ethereum){" "}
+            I have experience across multiple domains including Full Stack
+            Development, AI/ML Integration, Web3/Blockchain, Mobile Development
+            (Flutter), and Cloud Infrastructure (AWS). I'm passionate about
+            learning new technologies and implementing them in real-world
+            applications.
           </p>
           <div className="pl-6">
             <p className="font-JosefinSans text-[1.5rem]">Education</p>
@@ -130,8 +139,7 @@ export default function Home() {
               <li className="flex gap-2 font-JosefinSans">
                 <p className="font-bold">BTech(CSE) -</p>
                 <p className="font-thin">
-                  Government College of Engineering, Kalahandi (8.61 SGPA in 1st
-                  Semester)
+                  Government College of Engineering, Kalahandi (GPA: 8.2)
                 </p>
               </li>
               <li className="flex gap-2 font-JosefinSans">
@@ -151,19 +159,509 @@ export default function Home() {
         </div>
       </div>
 
+      {/* experience */}
+      <div
+        id="experience"
+        className="flex items-start pt-20 gap-16 w-[80vw] max-w-[70rem] z-10 flex-col max500:w-[90vw] max500:mb-24 min-h-screen"
+      >
+        <p className="font-LexendPeta text-[1.8rem] font-semibold">
+          Professional Experience
+        </p>
+
+        <div className="flex flex-col gap-12 pl-3 font-thin font-Inter w-full">
+          {/* Zereus AI */}
+          <div className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10">
+            <div className="flex flex-col gap-2 mb-4">
+              <div className="flex items-center justify-between flex-wrap gap-2">
+                <h3 className="font-JosefinSans text-[1.5rem] font-bold text-white">
+                  Full Stack Developer
+                </h3>
+                <span className="bg-blue-500/20 text-blue-300 px-3 py-1 rounded-full text-sm font-medium">
+                  Full-time
+                </span>
+              </div>
+              <div className="flex items-center gap-2 text-blue-300">
+                <h4 className="font-JosefinSans text-[1.2rem] font-semibold">
+                  Zereus AI
+                </h4>
+                <span className="text-gray-400">•</span>
+                <span className="text-gray-300">Remote</span>
+              </div>
+              <p className="text-gray-400 font-medium">
+                July 2024 - Present
+              </p>
+            </div>
+
+            <div className="mb-6">
+              <h5 className="font-JosefinSans text-[1.1rem] font-semibold mb-3 text-white">
+                Key Responsibilities:
+              </h5>
+              <ul className="flex flex-col gap-2 pl-4">
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-400 mt-2">•</span>
+                  <span className="text-gray-300 leading-relaxed">
+                    Built and deployed scalable backend systems using
+                    TypeScript, Express, Django, PostgreSQL, MongoDB, and AWS,
+                    ensuring reliability and modular design.
+                  </span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-400 mt-2">•</span>
+                  <span className="text-gray-300 leading-relaxed">
+                    Developed an AI trading and research framework using
+                    LangGraph, LangChain, Web3 APIs, and Solana SDK, enabling
+                    multi-agent collaboration for automated analysis and
+                    decision-making.
+                  </span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-400 mt-2">•</span>
+                  <span className="text-gray-300 leading-relaxed">
+                    Designed and maintained Neo4j graph databases to map social
+                    media sentiment and topic trends, identifying upcoming
+                    opportunities and key influencer activity.
+                  </span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-400 mt-2">•</span>
+                  <span className="text-gray-300 leading-relaxed">
+                    Integrated WebSockets and modern state management (Zustand)
+                    to deliver seamless, real-time user experiences across
+                    platforms.
+                  </span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-400 mt-2">•</span>
+                  <span className="text-gray-300 leading-relaxed">
+                    Built a TradingView dashboard with secure wallet integration
+                    and on-chain trading support.
+                  </span>
+                </li>
+              </ul>
+            </div>
+
+            <div className="mb-6">
+              <h5 className="font-JosefinSans text-[1.1rem] font-semibold mb-3 text-white">
+                Key Achievements:
+              </h5>
+              <ul className="flex flex-col gap-2 pl-4">
+                <li className="flex items-start gap-2">
+                  <span className="text-green-400 mt-2">✓</span>
+                  <span className="text-gray-300 leading-relaxed">
+                    Reduced system response time by 40% through optimized
+                    database queries
+                  </span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-green-400 mt-2">✓</span>
+                  <span className="text-gray-300 leading-relaxed">
+                    Implemented multi-agent AI system handling 10K+ daily
+                    trading decisions
+                  </span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-green-400 mt-2">✓</span>
+                  <span className="text-gray-300 leading-relaxed">
+                    Achieved 99.9% uptime for critical trading infrastructure
+                  </span>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h5 className="font-JosefinSans text-[1.1rem] font-semibold mb-3 text-white">
+                Technologies Used:
+              </h5>
+              <div className="flex flex-wrap gap-2">
+                {[
+                  "TypeScript",
+                  "Express",
+                  "Django",
+                  "PostgreSQL",
+                  "MongoDB",
+                  "AWS",
+                  "LangGraph",
+                  "LangChain",
+                  "Web3",
+                  "Solana SDK",
+                  "Neo4j",
+                  "WebSockets",
+                  "Zustand",
+                  "TradingView",
+                ].map((tech, techIndex) => (
+                  <span
+                    key={techIndex}
+                    className="bg-blue-500/20 text-blue-300 px-3 py-1 rounded-full text-sm font-medium border border-blue-500/30"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          {/* Freelancing */}
+          <div className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10">
+            <div className="flex flex-col gap-2 mb-4">
+              <div className="flex items-center justify-between flex-wrap gap-2">
+                <h3 className="font-JosefinSans text-[1.5rem] font-bold text-white">
+                  Full Stack Developer
+                </h3>
+                <span className="bg-green-500/20 text-green-300 px-3 py-1 rounded-full text-sm font-medium">
+                  Contract
+                </span>
+              </div>
+              <div className="flex items-center gap-2 text-blue-300">
+                <h4 className="font-JosefinSans text-[1.2rem] font-semibold">
+                  Freelancing
+                </h4>
+                <span className="text-gray-400">•</span>
+                <span className="text-gray-300">Remote</span>
+              </div>
+              <p className="text-gray-400 font-medium">
+                April 2024 - July 2024
+              </p>
+            </div>
+
+            <div className="mb-6">
+              <h5 className="font-JosefinSans text-[1.1rem] font-semibold mb-3 text-white">
+                Key Responsibilities:
+              </h5>
+              <ul className="flex flex-col gap-2 pl-4">
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-400 mt-2">•</span>
+                  <span className="text-gray-300 leading-relaxed">
+                    Integrated a custom-trained ML model with Next.js and Flask,
+                    enabling real-time inference and improved data handling.
+                  </span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-400 mt-2">•</span>
+                  <span className="text-gray-300 leading-relaxed">
+                    Built a text-to-speech module to enhance accessibility and
+                    automate content delivery for clients.
+                  </span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-400 mt-2">•</span>
+                  <span className="text-gray-300 leading-relaxed">
+                    Developed a dynamic website generator with a user-friendly
+                    UI for non-technical users to create customizable web pages.
+                  </span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-400 mt-2">•</span>
+                  <span className="text-gray-300 leading-relaxed">
+                    Delivered high-quality solutions under tight deadlines by
+                    focusing on modular design, client feedback, and iterative
+                    improvement.
+                  </span>
+                </li>
+              </ul>
+            </div>
+
+            <div className="mb-6">
+              <h5 className="font-JosefinSans text-[1.1rem] font-semibold mb-3 text-white">
+                Key Achievements:
+              </h5>
+              <ul className="flex flex-col gap-2 pl-4">
+                <li className="flex items-start gap-2">
+                  <span className="text-green-400 mt-2">✓</span>
+                  <span className="text-gray-300 leading-relaxed">
+                    Delivered 5+ client projects within tight deadlines
+                  </span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-green-400 mt-2">✓</span>
+                  <span className="text-gray-300 leading-relaxed">
+                    Improved client website performance by 60% through
+                    optimization
+                  </span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-green-400 mt-2">✓</span>
+                  <span className="text-gray-300 leading-relaxed">
+                    Reduced development time by 30% using reusable components
+                  </span>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h5 className="font-JosefinSans text-[1.1rem] font-semibold mb-3 text-white">
+                Technologies Used:
+              </h5>
+              <div className="flex flex-wrap gap-2">
+                {[
+                  "Next.js",
+                  "Flask",
+                  "Machine Learning",
+                  "Text-to-Speech",
+                  "React",
+                  "TypeScript",
+                  "Python",
+                ].map((tech, techIndex) => (
+                  <span
+                    key={techIndex}
+                    className="bg-green-500/20 text-green-300 px-3 py-1 rounded-full text-sm font-medium border border-green-500/30"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          {/* Intelligent Cloud Applications */}
+          <div className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10">
+            <div className="flex flex-col gap-2 mb-4">
+              <div className="flex items-center justify-between flex-wrap gap-2">
+                <h3 className="font-JosefinSans text-[1.5rem] font-bold text-white">
+                  Full Stack Developer
+                </h3>
+                <span className="bg-blue-500/20 text-blue-300 px-3 py-1 rounded-full text-sm font-medium">
+                  Full-time
+                </span>
+              </div>
+              <div className="flex items-center gap-2 text-blue-300">
+                <h4 className="font-JosefinSans text-[1.2rem] font-semibold">
+                  Intelligent Cloud Applications
+                </h4>
+                <span className="text-gray-400">•</span>
+                <span className="text-gray-300">Remote</span>
+              </div>
+              <p className="text-gray-400 font-medium">
+                November 2022 - April 2024
+              </p>
+            </div>
+
+            <div className="mb-6">
+              <h5 className="font-JosefinSans text-[1.1rem] font-semibold mb-3 text-white">
+                Key Responsibilities:
+              </h5>
+              <ul className="flex flex-col gap-2 pl-4">
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-400 mt-2">•</span>
+                  <span className="text-gray-300 leading-relaxed">
+                    Led frontend and backend development of cloud-based web
+                    applications using React, Node.js, and AWS Serverless
+                    architecture.
+                  </span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-400 mt-2">•</span>
+                  <span className="text-gray-300 leading-relaxed">
+                    Improved application performance and responsiveness by
+                    implementing Zustand for state management, caching
+                    strategies, and API-level optimizations.
+                  </span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-400 mt-2">•</span>
+                  <span className="text-gray-300 leading-relaxed">
+                    Deployed AWS Lambda-based microservices, reducing
+                    infrastructure complexity and improving scalability.
+                  </span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-400 mt-2">•</span>
+                  <span className="text-gray-300 leading-relaxed">
+                    Enhanced security and maintainability by building robust
+                    authentication flows, optimizing data access patterns, and
+                    streamlining CI/CD pipelines.
+                  </span>
+                </li>
+              </ul>
+            </div>
+
+            <div className="mb-6">
+              <h5 className="font-JosefinSans text-[1.1rem] font-semibold mb-3 text-white">
+                Key Achievements:
+              </h5>
+              <ul className="flex flex-col gap-2 pl-4">
+                <li className="flex items-start gap-2">
+                  <span className="text-green-400 mt-2">✓</span>
+                  <span className="text-gray-300 leading-relaxed">
+                    Reduced infrastructure costs by 35% through serverless
+                    optimization
+                  </span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-green-400 mt-2">✓</span>
+                  <span className="text-gray-300 leading-relaxed">
+                    Improved application load time by 50% through caching
+                    strategies
+                  </span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-green-400 mt-2">✓</span>
+                  <span className="text-gray-300 leading-relaxed">
+                    Implemented CI/CD pipeline reducing deployment time by 70%
+                  </span>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h5 className="font-JosefinSans text-[1.1rem] font-semibold mb-3 text-white">
+                Technologies Used:
+              </h5>
+              <div className="flex flex-wrap gap-2">
+                {[
+                  "React",
+                  "Node.js",
+                  "AWS",
+                  "Serverless",
+                  "Zustand",
+                  "Lambda",
+                  "CI/CD",
+                  "Authentication",
+                  "Microservices",
+                ].map((tech, techIndex) => (
+                  <span
+                    key={techIndex}
+                    className="bg-blue-500/20 text-blue-300 px-3 py-1 rounded-full text-sm font-medium border border-blue-500/30"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          {/* Bworkz Internship */}
+          <div className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10">
+            <div className="flex flex-col gap-2 mb-4">
+              <div className="flex items-center justify-between flex-wrap gap-2">
+                <h3 className="font-JosefinSans text-[1.5rem] font-bold text-white">
+                  Full Stack Developer Intern
+                </h3>
+                <span className="bg-purple-500/20 text-purple-300 px-3 py-1 rounded-full text-sm font-medium">
+                  Internship
+                </span>
+              </div>
+              <div className="flex items-center gap-2 text-blue-300">
+                <h4 className="font-JosefinSans text-[1.2rem] font-semibold">
+                  Bworkz
+                </h4>
+                <span className="text-gray-400">•</span>
+                <span className="text-gray-300">Remote</span>
+              </div>
+              <p className="text-gray-400 font-medium">
+                July 2022 - October 2022
+              </p>
+            </div>
+
+            <div className="mb-6">
+              <h5 className="font-JosefinSans text-[1.1rem] font-semibold mb-3 text-white">
+                Key Responsibilities:
+              </h5>
+              <ul className="flex flex-col gap-2 pl-4">
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-400 mt-2">•</span>
+                  <span className="text-gray-300 leading-relaxed">
+                    Developed and deployed full-stack web applications
+                    leveraging AWS Lambda and AWS S3 for efficient compute and
+                    storage.
+                  </span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-400 mt-2">•</span>
+                  <span className="text-gray-300 leading-relaxed">
+                    Created reusable React.js components and optimized UI
+                    workflows to improve maintainability and UX consistency.
+                  </span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-400 mt-2">•</span>
+                  <span className="text-gray-300 leading-relaxed">
+                    Collaborated with product teams to translate business logic
+                    into scalable, production-ready features.
+                  </span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-400 mt-2">•</span>
+                  <span className="text-gray-300 leading-relaxed">
+                    Optimized API response times and database queries, improving
+                    backend performance and reducing user wait times.
+                  </span>
+                </li>
+              </ul>
+            </div>
+
+            <div className="mb-6">
+              <h5 className="font-JosefinSans text-[1.1rem] font-semibold mb-3 text-white">
+                Key Achievements:
+              </h5>
+              <ul className="flex flex-col gap-2 pl-4">
+                <li className="flex items-start gap-2">
+                  <span className="text-green-400 mt-2">✓</span>
+                  <span className="text-gray-300 leading-relaxed">
+                    Improved API response time by 45% through query optimization
+                  </span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-green-400 mt-2">✓</span>
+                  <span className="text-gray-300 leading-relaxed">
+                    Created 15+ reusable components reducing development time
+                  </span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-green-400 mt-2">✓</span>
+                  <span className="text-gray-300 leading-relaxed">
+                    Successfully deployed 3 production applications
+                  </span>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h5 className="font-JosefinSans text-[1.1rem] font-semibold mb-3 text-white">
+                Technologies Used:
+              </h5>
+              <div className="flex flex-wrap gap-2">
+                {[
+                  "React",
+                  "AWS Lambda",
+                  "AWS S3",
+                  "JavaScript",
+                  "Node.js",
+                  "Database Optimization",
+                  "UI/UX",
+                ].map((tech, techIndex) => (
+                  <span
+                    key={techIndex}
+                    className="bg-purple-500/20 text-purple-300 px-3 py-1 rounded-full text-sm font-medium border border-purple-500/30"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* skills */}
-      <div className="flex items-Start pt-20 gap-16 w-[80vw] max-w-[70rem] z-10 flex-col overflow-hidden max500:w-[90vw] min-h-screen">
+      <div
+        id="skills"
+        className="flex items-Start pt-20 gap-16 w-[80vw] max-w-[70rem] z-10 flex-col overflow-hidden max500:w-[90vw] min-h-screen"
+      >
         <p className="font-LexendPeta text-[1.8rem] font-semibold">Skills</p>
         <div className="flex flex-col pl-3 font-thin font-Inter ">
           <p className="w-[90%]">
-            These are my skills which I use to create and develop things and I
-            am not expert in all things but i use them to be an expert
+            These are the technologies and tools I use to build scalable
+            applications, AI systems, and Web3 solutions. I continuously learn
+            and adapt to new technologies to stay at the forefront of
+            development.
           </p>
           <ul className="flex flex-wrap gap-x-32 gap-y-10 pl-3 mt-10 font-JosefinSans w-[70vw] max-w-[65rem] mb-20 max500:mb-24">
             <li className="">
               <p className="text-[1.3rem]">Languages:-</p>
               <ul className="flex flex-col gap-2 pt-2 pl-6 list-disc">
-                <SkillItem svg={JavascriptSvg} name={"JavaScript"} />
+                <SkillItem svg={JavascriptSvg} name={"JavaScript (ES6+)"} />
+                <SkillItem svg={JavascriptSvg} name={"TypeScript"} />
+                <SkillItem svg={JavascriptSvg} name={"Python"} />
                 <SkillItem svg={CplusSvg} name={"C++"} />
                 <SkillItem svg={CsharpSvg} name={"C#"} />
                 <SkillItem svg={DartSvg} name={"Dart"} />
@@ -174,32 +672,50 @@ export default function Home() {
               <p className="text-[1.3rem]">Frontend:-</p>
               <ul className="flex flex-col gap-2 pt-2 pl-6 list-disc">
                 <SkillItem svg={HtmlSvg} name={"HTML"} />
-                <SkillItem svg={TailwindCssSvg} name={"Tailwind Css"} />
+                <SkillItem svg={TailwindCssSvg} name={"Tailwind CSS"} />
                 <SkillItem svg={ReactSvg} name={"React"} />
+                <SkillItem svg={NextJsSvg} name={"Next.js"} />
                 <SkillItem svg={FlutterSvg} name={"Flutter"} />
-                <SkillItem svg={NextJsSvg} name={"Next Js"} />
-                <SkillItem svg={RazorpayPng} name={"RazorPay"} />
+                <SkillItem svg={JavascriptSvg} name={"Vite"} />
+                <SkillItem svg={JavascriptSvg} name={"Zustand"} />
               </ul>
             </li>
             <li>
               <p className="text-[1.3rem]">Backend:-</p>
               <ul className="flex flex-col gap-2 pt-2 pl-6 list-disc">
-                <SkillItem svg={NodeJsSvg} name={"Node Js"} />
-                <SkillItem svg={NodeJsSvg} name={"Express"} />
-                <SkillItem svg={MongoDbSvg} name={"MongoDb"} />
-                <SkillItem svg={SSTSvg} name={"SST"} />
+                <SkillItem svg={NodeJsSvg} name={"Node.js"} />
+                <SkillItem svg={NodeJsSvg} name={"Express.js"} />
+                <SkillItem svg={JavascriptSvg} name={"Nest.js"} />
+                <SkillItem svg={JavascriptSvg} name={"Flask"} />
+                <SkillItem svg={JavascriptSvg} name={"Django"} />
+                <SkillItem svg={MongoDbSvg} name={"MongoDB"} />
+                <SkillItem svg={JavascriptSvg} name={"PostgreSQL"} />
+                <SkillItem svg={JavascriptSvg} name={"Neo4j"} />
+                <SkillItem svg={JavascriptSvg} name={"Redis"} />
                 <SkillItem svg={AWSSvg} name={"AWS"} />
-                <SkillItem svg={NextJsSvg} name={"NEXT Js"} />
                 <SkillItem svg={HardHatSvg} name={"HardHat"} />
-                <SkillItem svg={RazorpayPng} name={"RazorPay"} />
               </ul>
             </li>
             <li>
-              <p className="text-[1.3rem]">Technologies:-</p>
+              <p className="text-[1.3rem]">AI & Web3:-</p>
               <ul className="flex flex-col gap-2 pt-2 pl-6 list-disc">
+                <SkillItem svg={JavascriptSvg} name={"LangGraph"} />
+                <SkillItem svg={JavascriptSvg} name={"LangChain"} />
+                <SkillItem svg={JavascriptSvg} name={"AI Agents"} />
+                <SkillItem svg={JavascriptSvg} name={"Web3.js"} />
+                <SkillItem svg={JavascriptSvg} name={"Solana SDK"} />
+                <SkillItem svg={JavascriptSvg} name={"TradingView"} />
+              </ul>
+            </li>
+            <li>
+              <p className="text-[1.3rem]">DevOps & Tools:-</p>
+              <ul className="flex flex-col gap-2 pt-2 pl-6 list-disc">
+                <SkillItem svg={AWSSvg} name={"AWS (S3, Lambda)"} />
+                <SkillItem svg={JavascriptSvg} name={"Docker"} />
+                <SkillItem svg={JavascriptSvg} name={"CI/CD"} />
+                <SkillItem svg={GithubSvg} name={"GitHub Actions"} />
                 <SkillItem svg={FigmaSvg} name={"Figma"} />
-                <SkillItem svg={GithubSvg} name={"Github"} />
-                <SkillItem svg={VsCodeSvg} name={"Vs Code"} />
+                <SkillItem svg={VsCodeSvg} name={"VS Code"} />
               </ul>
             </li>
           </ul>
@@ -207,7 +723,10 @@ export default function Home() {
       </div>
 
       {/* projects */}
-      <div className="flex items-Start pt-20 h-[100%] gap-16 w-[80vw] max-w-[70rem] z-10 flex-col max500:w-[90vw] min-h-screen">
+      <div
+        id="projects"
+        className="flex items-Start pt-20 h-[100%] gap-16 w-[80vw] max-w-[70rem] z-10 flex-col max500:w-[90vw] min-h-screen"
+      >
         <p className="font-LexendPeta text-[1.8rem] font-semibold">Projects</p>
         <div className="flex justify-between pl-3 font-thin font-Inter">
           <ul className="flex flex-col gap-2">
@@ -309,7 +828,10 @@ export default function Home() {
       </div>
 
       {/* social */}
-      <div className="flex items-Start pt-20  gap-16 w-[80vw] max-w-[70rem] z-10 flex-col max500:w-[90vw] min-h-screen">
+      <div
+        id="social"
+        className="flex items-Start pt-20  gap-16 w-[80vw] max-w-[70rem] z-10 flex-col max500:w-[90vw] min-h-screen"
+      >
         <p className="font-LexendPeta text-[1.8rem] font-semibold">Social</p>
         <ul className="flex flex-col gap-4 pl-3 font-thin text-white font-LexendPeta">
           <li>

@@ -15,29 +15,34 @@ const NavBar = () => {
           className={`w-12 flex justify-center py-3 max500:py-1`}
           // className={`w-12 flex justify-center bg-[#313246] py-3 max500:py-1`}
         >
-          <Link href={"/"}>
+          <a href={"#home"}>
             <Image src={HomeSvg} height={"30"}></Image>
-          </Link>
+          </a>
         </li>
         <li className={`w-12 flex justify-center py-3 max500:py-1`}>
-          <Link href={"/about"}>
+          <a href={"#about"}>
             <Image src={AboutSvg} height={"30"}></Image>
-          </Link>
+          </a>
         </li>
         <li className={`w-12 flex justify-center py-3 max500:py-1`}>
-          <Link href={"/skills"}>
+          <a href={"#experience"}>
+            <Image src={AboutSvg} height={"30"}></Image>
+          </a>
+        </li>
+        <li className={`w-12 flex justify-center py-3 max500:py-1`}>
+          <a href={"#skills"}>
             <Image src={SkillSvg} height={"30"}></Image>
-          </Link>
+          </a>
         </li>
         <li className={`w-12 flex justify-center py-3 max500:py-1`}>
-          <Link href={"/projects"}>
+          <a href={"#projects"}>
             <Image src={ProjectSvg} height={"30"}></Image>
-          </Link>
+          </a>
         </li>
         <li className={`w-12 flex justify-center py-3 max500:py-1`}>
-          <Link href={"/social"}>
+          <a href={"#social"}>
             <Image src={SocialSvg} height={"30"}></Image>
-          </Link>
+          </a>
         </li>
       </ul>
     </div>
