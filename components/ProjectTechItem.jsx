@@ -15,6 +15,7 @@ const ProjectTechItem = ({ img, name }) => {
         width="35"
         onMouseEnter={ToggleHover}
         onMouseLeave={ToggleHover}
+        alt={`${name} logo`}
       />
       {isHover && (
         <p className="bg-[#232432] px-1 py-1 rounded text-[0.6rem] absolute ">

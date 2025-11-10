@@ -65,6 +65,7 @@ export default function Home() {
           className="absolute top-12 left-12 z-10"
           height={"32"}
           width={"32"}
+          alt="Harsh Keshri monogram logo"
         />
         <div className="flex items-center justify-between w-[80vw] max-w-[70rem] z-10 max500:w-[90vw] max800:justify-center h-screen">
           <div className="flex flex-col gap-10 ">
@@ -79,7 +80,7 @@ export default function Home() {
                 href="https://drive.google.com/file/d/1iiB89PWGbQdTsrs0kKPA7852x_vgESfM/view?usp=sharing"
                 target={"_blank"}
               >
-                <Image src={ResumeSvg} />
+                <Image src={ResumeSvg} alt="Download Harsh Keshri resume" />
               </Link>
             </div>
           </div>
@@ -629,9 +630,9 @@ export default function Home() {
                 >
                   <div>
                     {index == i ? (
-                      <Image src={OpenSvg} width="23"></Image>
+                      <Image src={OpenSvg} width="23" alt="Expanded project" />
                     ) : (
-                      <Image src={CloseSvg} width="23"></Image>
+                      <Image src={CloseSvg} width="23" alt="Collapsed project" />
                     )}
                   </div>
                   <p>{project.name}</p>
@@ -676,7 +677,7 @@ export default function Home() {
                     target="_blank"
                     className="w-[calc(100%-6.8rem)] text-clip"
                   >
-                    <Image src={ExternalLinkSvg} height="20" />
+                    <Image src={ExternalLinkSvg} height="20" alt="Open project on GitHub" />
                   </Link>
                 </div>
                 <div>
@@ -701,6 +702,7 @@ export default function Home() {
                   className="absolute right-4 top-4 cursor-pointer"
                   height={"28"}
                   width={"28"}
+                  alt="Close project details"
                   onClick={CloseProject}
                 />
               </div>
@@ -728,8 +730,9 @@ export default function Home() {
               href={"https://github.com/airbornharsh"}
               className="flex items-center gap-3"
               target={"_blank"}
+              rel="me noopener noreferrer"
             >
-              <Image src={GithubSvg} height="30" />
+                <Image src={GithubSvg} height="30" alt="GitHub icon" />
               <p className="text-[1.2rem] ">Github</p>
             </Link>
           </li>
@@ -738,8 +741,9 @@ export default function Home() {
               href={"https://www.linkedin.com/in/airbornharsh"}
               className="flex items-center gap-3"
               target={"_blank"}
+              rel="me noopener noreferrer"
             >
-              <Image src={LinkedinSvg} height="30" />
+                <Image src={LinkedinSvg} height="30" alt="LinkedIn icon" />
               <p className="text-[1.2rem] ">Linkedin</p>
             </Link>
           </li>
@@ -748,8 +752,9 @@ export default function Home() {
               href={"https://www.twitter.com/airbornharsh"}
               className="flex items-center gap-3"
               target={"_blank"}
+              rel="me noopener noreferrer"
             >
-              <Image src={TwitterSvg} height="30" />
+                <Image src={TwitterSvg} height="30" alt="Twitter icon" />
               <p className="text-[1.2rem] ">Twitter</p>
             </Link>
           </li>
@@ -758,18 +763,20 @@ export default function Home() {
               href={"https://www.instagram.com/airbornharsh"}
               className="flex items-center gap-3"
               target={"_blank"}
+              rel="me noopener noreferrer"
             >
-              <Image src={InstagramSvg} height="30" />
+                <Image src={InstagramSvg} height="30" alt="Instagram icon" />
               <p className="text-[1.2rem] ">Instagram</p>
             </Link>
           </li>
           <li>
             <a
-              href={"https://harshkeshri1234567@gmail.com"}
+              href={"mailto:harshkeshri1234567@gmail.com"}
               className="flex items-center gap-3"
               target={"_blank"}
+              rel="noopener noreferrer"
             >
-              <Image src={MailSvg} height="30" />
+              <Image src={MailSvg} height="30" alt="Email icon" />
               <p className="text-[1.2rem] ">Mail</p>
             </a>
           </li>
